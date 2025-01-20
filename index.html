@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+
+                extend: {
+                    animation: {
+                        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+                    },
+                    keyframes: {
+                        'infinite-scroll': {
+                            from: { transform: 'translateX(0)' },
+                            to: { transform: 'translateX(-100%)' },
+                        }
+                    },
+                    colors: {
+                        growPrimary: '#4d3a3a',
+                        // debexLightBlue: '#D9D9D9',
+                        // debexPrimary: '#222E3C'
+                    },
+                    fontFamily: {
+                        roboto: ['Roboto', 'sans-serif'],
+                        varela: ['Varela Round', 'sans-serif'],
+                        sixtyfour: ['Sixtyfour', 'sans-serif'],  // 'sans-serif' as a fallback
+                    },
+
+                },
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="curve-image absolute top-[30rem] "
+        style="filter: invert(56%) sepia(35%) saturate(5015%) hue-rotate(159deg) brightness(91%) contrast(102%);">
+        <img src="1737295465193.png" class="h-5 w-3/4">
+        <img src="1737295465193.png" class="h-5 w-3/4">
+        <img src="1737295465193.png" class="h-5 w-3/4">
+    </div>
+    <img src="patters.png"
+        style="filter: invert(56%) sepia(35%) saturate(5015%) hue-rotate(159deg) brightness(91%) contrast(102%);"
+        class="absolute h-[100px] w-[120px] right-0 top-[44rem]">
+
+
+    <div class="w-8/12 justify-self-center mb-10">
+        <!-- header -->
+        <nav class="top-header flex items-center justify-between w-full ">
+            <div>
+                <a href="">
+                    <!-- Logo -->
+                    <div class="logo-container size-32 flex items-center justify-between ">
+                        <img src="https://growecommerce.com/img/logo.jpg" class="logo">
+                    </div>
+                </a>
+            </div>
+            <!-- End Logo -->
+            <!-- Center Menu -->
+            <div class="navbar flex-auto w-64">
+                <ul
+                    class="navbar-nav uppercase flex items-center justify-center space-x-6 font-roboto  font-semibold text-sm">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">B2B Sales & Service</li>
+                    <li class="nav-item">REtailers</li>
+                    <li class="nav-item">
+                        <button class="uppercase bg-blue-500 px-4 py-1 rounded-md text-white">Get Started</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Menu -->
+            <!-- Social Media Logo -->
+            <div class="socials  ">
+                <ul class="social-media-logo flex justify-center items-center space-x-3">
+                    <li class="social-logo-item  border-2 border-blue-500 rounded-full">
+                        <svg class="mb-2 ml-1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25"
+                            viewBox="0,0,300,150" style="fill:#228BE6;">
+                            <g fill="#228be6" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(10.66667,10.66667)">
+                                    <path
+                                        d="M22,3.999c-0.78,0.463 -2.345,1.094 -3.265,1.276c-0.027,0.007 -0.049,0.016 -0.075,0.023c-0.813,-0.802 -1.927,-1.299 -3.16,-1.299c-2.485,0 -4.5,2.015 -4.5,4.5c0,0.131 -0.011,0.372 0,0.5c-3.353,0 -5.905,-1.756 -7.735,-4c-0.199,0.5 -0.286,1.29 -0.286,2.032c0,1.401 1.095,2.777 2.8,3.63c-0.314,0.081 -0.66,0.139 -1.02,0.139c-0.581,0 -1.196,-0.153 -1.759,-0.617c0,0.017 0,0.033 0,0.051c0,1.958 2.078,3.291 3.926,3.662c-0.375,0.221 -1.131,0.243 -1.5,0.243c-0.26,0 -1.18,-0.119 -1.426,-0.165c0.514,1.605 2.368,2.507 4.135,2.539c-1.382,1.084 -2.341,1.486 -5.171,1.486h-0.964c1.788,1.146 4.065,2.001 6.347,2.001c7.43,0 11.653,-5.663 11.653,-11.001c0,-0.086 -0.002,-0.266 -0.005,-0.447c0,-0.018 0.005,-0.035 0.005,-0.053c0,-0.027 -0.008,-0.053 -0.008,-0.08c-0.003,-0.136 -0.006,-0.263 -0.009,-0.329c0.79,-0.57 1.475,-1.281 2.017,-2.091c-0.725,0.322 -1.503,0.538 -2.32,0.636c0.834,-0.5 2.019,-1.692 2.32,-2.636z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </li>
+                    <li class="social-logo-item border-2 border-blue-500 rounded-full ">
+                        <svg class="mb-2 ml-1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25"
+                            viewBox="0,0,300,150" style="fill:#228BE6;">
+                            <g fill="#228be6" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(10.66667,10.66667)">
+                                    <path
+                                        d="M8,3c-2.761,0 -5,2.239 -5,5v8c0,2.761 2.239,5 5,5h8c2.761,0 5,-2.239 5,-5v-8c0,-2.761 -2.239,-5 -5,-5zM18,5c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1zM12,7c2.761,0 5,2.239 5,5c0,2.761 -2.239,5 -5,5c-2.761,0 -5,-2.239 -5,-5c0,-2.761 2.239,-5 5,-5zM12,9c-1.65685,0 -3,1.34315 -3,3c0,1.65685 1.34315,3 3,3c1.65685,0 3,-1.34315 3,-3c0,-1.65685 -1.34315,-3 -3,-3z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </li>
+                    <li class="social-logo-item  border-2 border-blue-500 rounded-full">
+                        <svg class="mb-2 ml-1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25"
+                            viewBox="0,0,300,150" style="fill:#228BE6;">
+                            <g fill="#228be6" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(5.12,5.12)">
+                                    <path
+                                        d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- End Social Media Logo -->
+        </nav>
+        <!-- End header -->
+        <!-- Banner -->
+        <div class="banner flex flex-col md:flex-row items-center mt-10 justify-between w-full gap-6  ">
+            <div class="banner-right w-1/2 relative">
+                <div class="w-[110px] h-[110px] bg-blue-300 top-[-20px] left-[-75px] rounded-full absolute z-[-999]">
+                </div>
+                <div class="banner-title text-3xl font-roboto  font-black uppercase  space-y-1">
+                    <p class="">Don't let your</p>
+                    <p class="text-blue-500">Geographical Location</p>
+                    <p>Dictate your</p>
+                    <p>Product Sales</p>
+                </div>
+                <div class="banner-description font-roboto mt-3">
+                    <p class="text-md">
+                        We are the Ecommerce Support Team Your Home</br>
+                        Furnishing Business needs to make sales painless
+                    </p>
+                </div>
+                <button class="uppercase bg-blue-500 px-4 py-1 rounded-md text-white uppercase font-roboto mt-3">Book a
+                    call Today!</button>
+            </div>
+            <div class="banner-left w-1/2 flex justify-center relative">
+                <div class="w-[110px] h-[70px] bg-blue-400 top-[100px] right-[-50px] absolute z-[-999]"></div>
+                <div class="banner-img-container w-96">
+                    <img class="w-full" src="image.png">
+                </div>
+            </div>
+        </div>
+        <!-- End Banner -->
+
+        <div class="top-accounts mt-12 relative">
+            <div class="top-title  text-center flex flex-col gap-3">
+                <p class="text-blue-500 uppercase text-2xl font-roboto font-black">Top Accounts <span
+                        class="text-black">We work with</span></p>
+                <p class="text-black text-md font-roboto">For over 15 years members of our experienced team have built
+                    relationship with
+                    the </br> biggest buyers in the industry.
+                </p>
+            </div>
+
+            <div class="relative  flex flex-col justify-center  overflow-hidden">
+                <div class="w-full max-w-5xl mx-auto px-4 md:px-6 ">
+                    <div class="text-center">
+                        <!-- Logo Carousel animation -->
+                        <div x-data="{}" x-init="$nextTick(() => {
+                                let ul = $refs.logos;
+                                ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                                ul.nextSibling.setAttribute('aria-hidden', 'true');
+                            })"
+                            class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+                            <ul x-ref="logos"
+                                class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                                <li>
+                                    <img src="pngegg.png" class="h-[75px]" alt="Facebook" />
+                                </li>
+                                <li>
+                                    <img src="costco.png" class="h-[170px]" alt="Disney" />
+                                </li>
+                                <li>
+                                    <img src="macy.png" class="h-[70px]" alt="Airbnb" />
+                                </li>
+                                <li>
+                                    <img src="amazon.png" class="h-[120px]" alt="Apple" />
+                                </li>
+                                <li>
+                                    <img src="walmart.png" class="h-[70px]" alt="Spark" />
+                                </li>
+
+                            </ul>
+                            <ul x-ref="logos"
+                                class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                                <li>
+                                    <img src="pngegg.png" class="h-[75px]" alt="Facebook" />
+                                </li>
+                                <li>
+                                    <img src="costco.png" class="h-[170px]" alt="Disney" />
+                                </li>
+                                <li>
+                                    <img src="macy.png" class="h-[70px]" alt="Airbnb" />
+                                </li>
+                                <li>
+                                    <img src="amazon.png" class="h-[120px]" alt="Apple" />
+                                </li>
+                                <li>
+                                    <img src="walmart.png" class="h-[70px]" alt="Spark" />
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- End: Logo Carousel animation -->
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="top-title  text-center flex flex-col gap-3">
+                <p class=" uppercase text-2xl font-roboto font-black">Each Retailer <span class="text-blue-500">is
+                        unique</span></p>
+                <p class="text-black text-md font-roboto">
+                    Let us help get you setup for long term success!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="w-full bg-blue-500">
+        <div class="w-8/12 justify-self-center pt-6">
+
+            <div class="consumer-find m-2">
+                <div class="top-title  text-center flex flex-col justify-center items-center gap-3 ">
+                    <p class="uppercase text-2xl font-roboto font-black text-white">Can Consumer find your products?</p>
+                    <div class="bg-white p-1 w-1/2">
+                        <p class="text-blue-500 font-semibold text-md font-roboto">
+                            Over 218.8 million people will be shopping online this year
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Banner -->
+            <div class="banner flex flex-col md:flex-row items-center mt-10 justify-between w-full   ">
+                <div class="banner-right justify-start relative">
+                    <div class="banner-title text-md text-center font-roboto text-white   space-y-1">
+                        <p class="font-bold">Are your products on the big
+                            <br> e-commerce marketplaces like...
+                        </p>
+                    </div>
+                </div>
+                <div class="banner-right justify-start relative">
+                    <div class="banner-title text-md text-center font-roboto text-white   space-y-1">
+                        <p class="font-bold">Are your products on the big
+                            <br> e-commerce marketplaces like...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Banner -->
+        </div>
+    </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
