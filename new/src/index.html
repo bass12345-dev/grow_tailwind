@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/new/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper w-full h-screen">
+      <div class="page-inner">
+        <!-- --header-- -->
+        <header class="w-full h-28 fixed top-0 left-0 z-50 flex bg-white">
+          <nav
+            class="max-w-5xl h-16 container my-auto flex justify-between items-center"
+          >
+            <!-- ---Logo Section -->
+            <div
+              class="logo-container size-28 flex items-center justify-between uppercase font-bold"
+            >
+              <img src="https://growecommerce.com/img/logo.jpg" class="logo" />
+              <!-- <a>Grow Ecommerce</a> -->
+            </div>
+            <!-- --End-- -->
+            <!-- Menu -->
+            <div
+              class="menu  font-inter text-md absolute top-0 left-0 w-full bg-slate-100 py-10 z-500 hidden md:block md:static md:py-0 md:w-auto md:bg-white"
+            >
+              <ul
+                class="flex flex-col text-center gap-7 cursor-pointer items-center justify-content-center md:flex-row"
+              >
+                <li class="nav-item hover:text-growPrimaryColor">Home</li>
+                <li class="nav-item hover:text-growPrimaryColor">
+                  B2B Sales & Service
+                </li>
+                <li class="nav-item hover:text-growPrimaryColor">Retailers</li>
+                <li class="nav-item">
+                  <button
+                    class="bg-growPrimaryColor btn-rounded py-1 px-6 rounded-lg text-white uppercase"
+                  >
+                    Get Started
+                  </button>
+                </li>
+                <li class="text-2xl">
+                  <i class="ri-search-line"></i>
+                </li>
+                <!-- <div class="toggle-switch text-2xl  hidden md:block">
+                <i class="ri-contrast-2-line"></i>
+              </div> -->
+              </ul>
+              <div
+                class="close-icon absolute top-5 text-red-500 right-10 text-3xl cursor-pointer md:hidden"
+              >
+                <i class="ri-close-line"></i>
+              </div>
+            </div>
+            <!-- End -->
+            <!-- Icons -->
+            <div class="socials ">
+              <ul class="flex  gap-3 text-growPrimaryColor">
+                <li class="">
+                  <div
+                    class="w-8 h-8 border border-2 border-growPrimaryColor rounded-full relative"
+                  >
+                    <i
+                      class="ri-twitter-fill absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    ></i>
+                  </div>
+                </li>
+
+                <li class="">
+                  <div
+                    class="w-8 h-8 border border-2 border-growPrimaryColor rounded-full relative"
+                  >
+                    <i
+                      class="ri-instagram-fill absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    ></i>
+                  </div>
+                </li>
+                <li class="">
+                  <div
+                    class="w-8 h-8 border border-2 border-growPrimaryColor rounded-full relative"
+                  >
+                    <i
+                      class="ri-facebook-circle-fill absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    ></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- End -->
+            <!-- Hamburger,Dark Mode Button -->
+            <div class="flex gap-3 text-4xl mr-3 md:absolute md:right-50">
+              <!-- --- -->
+              <!-- <div class="toggle-switch">
+                <i class="ri-contrast-2-line"></i>
+              </div> -->
+              <!-- --- -->
+              <div class="hamburger-icon md:hidden">
+                <i class="ri-menu-2-line"></i>
+              </div>
+            </div>
+            <!-- End -->
+          </nav>
+        </header>
+        <!-- --End-- -->
+        <main class="w-full">
+          <div class="main-wrapper container my-auto max-w-5xl">
+            <!-- ---------------------Hero--------------- -->
+            <section id="home" class="flex flex-col gap-[30px] md:flex-row mt-12" >
+              <div class="banner-right text-center md:text-left">
+                <div
+                  class="banner-title text-3xl font-inter font-black uppercase space-y-1 tracking-[2px] "
+                >
+                  <p class="">Don't let your</p>
+                  <p class="text-growPrimaryColor">Geographical Location</p>
+                  <p>Dictate your</p>
+                  <p>Product Sales</p>
+                </div>
+                <div class="banner-description font-inter mt-4">
+                  <p class="text-md">
+                      We are the Ecommerce Support Team Your Home</br>
+                      Furnishing Business needs to make sales painless.
+                  </p>
+                </div>
+                <button class="uppercase bg-growPrimaryColor px-4 py-1 rounded-md text-white uppercase font-inter mt-3">Book a
+                  call Today!</button>
+              </div>
+              <div class="video flex items-center justify-center">
+                
+                  <iframe
+                    width="500"
+                    height="220"
+                    src="https://www.youtube.com/embed/6biMWgD6_JY"
+                    title="Tailwind CSS v4 Full Course 2025 | Master Tailwind in One Hour"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+              
+              </div>
+            </section>
+            <!-- -----------------End Hero---------------- -->
+
+            <!-- -----------------Top Accounts----------- -->
+            <section id="top-accounts">
+              <div class="top-title  text-center flex flex-col gap-3">
+                <p class="text-growPrimaryColor uppercase text-xl font-inter font-black">Top Accounts <span
+                        class="text-black">We work with</span></p>
+                <p class="text-black text-md font-inter">For over 15 years members of our experienced team have built
+                    relationship with
+                    the </br> biggest buyers in the industry.
+                </p>
+            </div>
+            </section>
+
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+  <script>
+    const hamburger_icon = document.querySelector(".hamburger-icon");
+    const close_icon = document.querySelector(".close-icon");
+    const socials = document.querySelector(".socials");
+    const nav_item = document.querySelectorAll(".nav-item");
+    const toggle_switch = document.querySelector(".toggle-switch");
+
+    nav_item.forEach(function (item) {
+      item.addEventListener("click", function () {
+        menu.classList.add("hidden");
+        socials.classList.remove("hidden");
+      });
+    });
+
+    const menu = document.querySelector(".menu");
+    hamburger_icon.addEventListener("click", function () {
+      menu.classList.remove("hidden");
+      socials.classList.add("hidden");
+    });
+    close_icon.addEventListener("click", function () {
+      menu.classList.add("hidden");
+      socials.classList.remove("hidden");
+    });
+
+    // toggle_switch.addEventListener('click', function() {
+    //   const page_wrapper = document.querySelector('.page-wrapper');
+    //   const menu = document.querySelector('.menu');
+    //   page_wrapper.classList.add('bg-slate-900');
+    //   page_wrapper.classList.add('text-white');
+    //   menu.classList.remove('md:bg-white');
+    //   menu.classList.add('bg-slate-900');
+    // })
+  </script>
+</html>
